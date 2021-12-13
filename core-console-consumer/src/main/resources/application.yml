@@ -1,0 +1,23 @@
+# Spring Boot
+spring:
+  banner:
+    location: banner.txt
+  artemis:
+    mode: NATIVE
+    host: localhost
+    port: 61616
+    #user: admin
+    #password: admin
+    pool.enabled: true
+
+# Camel Spring Boot
+camel:
+  springboot:
+    name: core-console-consumer
+    main-run-controller: true
+
+# Logging
+logging:
+  level:
+    root: ERROR
+    #org.apache.camel.examples: DEBUG
